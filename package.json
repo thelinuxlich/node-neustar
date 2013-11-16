@@ -1,0 +1,19 @@
+{
+  "author": "Alisson Cavalcante Agiani",
+  "name": "node-neustar",
+  "description": "Node geolocation module using the Neustar API.",
+  "version": "0.0.0",
+  "repository": {
+  	"type": "git",
+    "url": "https://github.com/NextUserSF/node-neustar.git"
+  },
+  "main": "./src/neustar_intel.js",
+  "dependencies": {
+  	"request" : "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

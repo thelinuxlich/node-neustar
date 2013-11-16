@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'owner', 'ls' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose url raw node-neustar
+5 verbose url resolving [ 'https://registry.npmjs.org/', './node-neustar' ]
+6 verbose url resolved https://registry.npmjs.org/node-neustar
+7 info trying registry request attempt 1 at 22:29:33
+8 http GET https://registry.npmjs.org/node-neustar
+9 http 404 https://registry.npmjs.org/node-neustar
+10 silly registry.get cb [ 404,
+10 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+10 silly registry.get     date: 'Fri, 22 Nov 2013 05:13:28 GMT',
+10 silly registry.get     'content-type': 'application/json',
+10 silly registry.get     'content-length': '52',
+10 silly registry.get     'cache-control': 'must-revalidate' } ]
+11 error owner ls Couldn't get owner data node-neustar
+12 error 404 'node-neustar' is not in the npm registry.
+12 error 404 You should bug the author to publish it
+12 error 404
+12 error 404 Maybe try 'npm search neustar'
+12 error 404
+12 error 404 Note that you can also install from a
+12 error 404 tarball, folder, or http url, or git url.
+13 error System Linux 3.11.6-1-ARCH
+14 error command "/usr/bin/node" "/usr/bin/npm" "owner" "ls"
+15 error cwd /home/thelinuxlich/node-neustar
+16 error node -v v0.10.22
+17 error npm -v 1.3.14
+18 error code E404
+19 verbose exit [ 1, true ]
