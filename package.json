@@ -2,7 +2,7 @@
   "author": "Alisson Cavalcante Agiani",
   "name": "node-neustar",
   "description": "Node geolocation module using the Neustar API.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
   	"type": "git",
     "url": "https://github.com/NextUserSF/node-neustar.git"
